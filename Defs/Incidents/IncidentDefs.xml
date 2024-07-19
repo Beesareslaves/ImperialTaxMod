@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <IncidentDef>
+    <defName>EmpireTaxCollection</defName>
+    <label>Empire tax collection</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>ImperialTaxMod.IncidentWorker_EmpireTaxCollection</workerClass>
+    <category>FactionArrival</category>
+    <baseChance>0.05</baseChance> <!-- Adjust base chance as needed -->
+    <requireColonistsPresent>True</requireColonistsPresent>
+  </IncidentDef>
+</Defs>

@@ -1,0 +1,22 @@
+<Defs>
+  <TraderKindDef>
+    <defName>TaxCollector</defName>
+    <label>tax collector</label>
+    <requestable>False</requestable>
+    <commonality>1.0</commonality>
+    <faction>Empire</faction>
+    <hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+    <stockGenerators>
+      <!-- Define what items the tax collector will accept -->
+      <li Class="StockGenerator_BuySlaves" />
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Silver</thingDef>
+      </li>
+    </stockGenerators>
+    <category>TaxCollector</category>
+  </TraderKindDef>
+</Defs>
+
